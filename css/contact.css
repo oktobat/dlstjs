@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.submn4 .contact_bg { width: 100%; height: 384px; overflow:hidden ;}
+.submn4 .contact_bg {background-image: url(../image/contactpg_bg.jpg);background-size: cover;background-repeat: no-repeat;position: relative; }
+.contact_bg h1 {font-size: 2.5em; color: #fff; font-weight: 600;padding: 150px 0 100px 0; text-align: center; text-transform: uppercase; transition: all 2s;}
+.contact_bg ul { width: 100%;height:66.67px ; background: rgba(13,48,120,0.8); position: absolute;bottom: 0; }
+.contact_bg li > a {font-size: 16px; color: #000; padding: 20px 40px; background: #fff; line-height: 180%;position: absolute;top:50% ;left: 50%;transform: translate(-50%,-50%);  }
+
+.counsel_box { margin: 80px 260.333px 100px;}
+.counsel_box h2 {margin: 20px 30px; padding: 25px; font-size: 30px; font-weight: 400 ; color: #004A8D; position: relative;}
+.counsel_box h2::before {content: ''; position: absolute; top:50% ; left:0;transform: translateY(-50%) ;border: 3px solid #004A8D; width: 4px; height: 4px;}
+.info_text tr { border-bottom: 1px #e5e5e5 solid; }
+.info_text tr:first-child {border-top: 1px solid #666;}
+.info_text td:nth-child(2n+1) {width: 20%; text-align: center;background: #f7f7f7;font-size: 14px; line-height: 180%; color: #000; padding: 9px;}
+.info_text tr td > input {height: 38.5px; border:1px solid #ddd; margin-left: 8px;}
+.info_text .name_box {width: 356px;}
+.info_text .email_box {width: 490px;}
+textarea { width: 100%; height: 300px; margin: 8px 8px!important; padding: 20px ; border: none; background: #eee; }
+.info_text input:last-child { border:none;}
+.btn button { font-size:14px ; color: #666;padding: 6.5px 20px ;border: 1px solid #fff; }
+.btn {margin-top:20px ;text-align: center;}

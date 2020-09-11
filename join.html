@@ -1,0 +1,126 @@
+
+    <div id="containerBox">
+        <section id="join_page">
+            <div class="check_outer row">
+                <h2>회원가입 여부확인</h2>
+                <p>이름과 이메일을 입력하여 주시기 바랍니다<br>
+                    등록이 되어있는지 확인하여 주세요.</p>
+                    <form action="#" method="post" class="check_form">
+                        <fieldset>
+                            <legend>이름/이메일 가입여부 확인</legend>
+                            <ul>
+                                <li>
+                                    <label for="name_lbl">이름</label>
+                                    <input type="text" id="name_lbl">
+                                </li>
+                                <li>
+                                    <label for="email_lbl">이메일</label>
+                                    <input type="text" id="email_lbl">
+                                </li>
+                                <li>
+                                    <span><a href="#">확인</a></span>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>    
+            </div>
+            <div class="join_box row">
+                <h2>회원가입란</h2>
+                <form action="#" method="post" class="join_form">
+                    <fieldset>
+                        <legend>회원가입양식</legend>
+                        <p class="info_content import_item">필수입력 사항</p>
+                        <ul class="info_list">
+                            <li>
+                                <label for="name_lbl" class="tit_lbl import_item">이름</label>
+                                <div class="info_content">
+                                    <input type="text" class="w320" id="name_lbl" placeholder="이름을 입력해주세요.">
+                                </div>
+                            </li>
+                            <li>
+                                <label for="id_lbl" class="tit_lbl import_item">아아디</label>
+                                <div class="info_content">
+                                    <input type="text" class="w320" id="id_lbl" placeholder="사용할 아이디를 입력해주세요.">
+                                </div>
+                            </li>
+                            <li>
+                                <label for="password_lbl" class="tit_lbl import_item">비밀번호</label>
+                                <div class="info_content">
+                                    <input type="password" class="w320" id="password_lbl" placeholder="숫자와 특수문자를 반드시 사용해주세요.">
+                                </div>
+                            </li>
+                            <li>
+                                <label for="password_lbl" class="tit_lbl import_item">비밀번호 확인</label>
+                                <div class="info_content">
+                                    <input type="password" class="w320" id="password_lbl" placeholder="비밀번호를 한번더 입력해주세요.">
+                                </div>
+                            </li>
+                                                   <li>
+                                <label for="tel_lbl" class="tit_lbl import_item">연락처</label>
+                                <div class="info_content">
+                                    <input type="text" class="w320" id="tel_lbl" placeholder="휴대폰 번호 '-' 없이 입력해주세요.">
+                                </div>
+                            </li>
+                            <li>
+                                <label for="email_lbl" class="tit_lbl import_item">이메일</label>
+                                <div class="info_content">
+                                    <input type="text" class="w160" id="email_lbl">
+                                    <span>@</span>
+                                    <input type="text" class="w160" id="domain">
+                                    <select id="email_choice" class="w160">
+                                        <option value="nochoice">-이메일선택-</option>
+                                        <option value="naver.com">네이버</option>
+                                        <option value="daum.net">다음</option>
+                                        <option value="self">직접입력</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <label for="addr_lbl" class="tit_lbl">주소</label>
+                                <div class="info_content">
+                                    <input type="text" class="w160 mb3" id="addr_lbl"> <button type="button">우편번호</button><br>
+                                    <input type="text" class="w70p mb3" id="addr1"> <span>(도로명주소)</span><br>
+                                    <input type="text" class="w70p mb3" id="addr2"> <span>(지번주소)</span><br>
+                                    <input type="text" class="w70p" id="addr3"> <span>(나머지주소)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <label for="birthday" class="tit_lbl">생년월일</label>
+                                <div class="info_content">
+                                    <input type="text" class="w160" id="birthday" placeholder="2020-05-04">
+                                </div>
+                            </li>
+                            <li>
+                                <label class="tit_lbl">성별</label>
+                                <div class="info_content gender_area">
+                                    <input type="radio" name="gender" id="male" value="남자">
+                                    <label for="male">남자</label>
+                                    <input type="radio" name="gender" id="female" value="여자">
+                                    <label for="female">여자</label>
+                                </div>
+                            </li>
+                            <li>
+                                <label class="tit_lbl">결혼여부</label>
+                                    <div class="info_content marry_area">
+                                        <input type="checkbox" name="marry" id="yet" value="기혼">
+                                        <label for="yet">기혼</label>
+                                        <input type="checkbox" name="marry" id="not" value="미혼">
+                                        <label for="not">미혼</label>
+                                    </div>
+                            </li>
+                            <li>
+                                <label for="counsel" class="tit_lbl">견적문의</label>
+                                <div class="info_content">
+                                    <textarea name="counsel" id="counsel" placeholder="반응형 웹페이지 제작문의사항을 남겨주세요."></textarea>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="btn">
+                            <input type="submit" value="전송">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </div>
+    

@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+#login_page { padding: 80px 260px 100px;border-top: 1px solid #eee; }
+.login_outer {margin-bottom: 156px;  }
+.login_outer h2 { margin:20px 0 30px ;padding-left: 25px; font-size:30px ; color:#004A8D; position: relative; font-weight: 400;} 
+.login_outer h2:before {content: ''; position: absolute; top:50%; left:0;transform: translateY(-50%) ;border: 3px solid #004A8D; width: 4px; height: 4px;}
+.login_outer p { font-size: 14px; color: #666; line-height: 180%;
+ padding-bottom: 20px;}
+.login_form { width: 96%; padding: 20px; background-color: #f1f1f1;
+    border: 1px #ddd solid; border-radius: 5px; margin-bottom: 10px;}
+.login_form li { display: inline-block; }    
+.login_form li label {font-size: 14px;color:#666; padding: 0 5px;}
+#id_lbl {width: 200px ; height:44px ; padding: 5px 8px;border: 1px #ddd solid}
+#password_lbl {width:200px ; height:44px ;padding: 5px 8px;border: 1px #ddd solid }
+.login_form ul li span { display:inline-block; width: 80px ; height:38px ; color: rgb(229,229,229) ; background: rgb(102,102,102); vertical-align: middle; margin: 0 5px;}
+.login_form ul li span:hover {background-color: #fff;color:rgb(102,102,102);}
+.login_form ul li a {display: block; text-align: center;padding:8.7px 0;}
+.btn_box li { display:inline-block ; float: left;margin: 30px 5px 30px 0}
+.btn_box li span {border:1px solid #eee; padding: 8px 15px ;color:#666; transition: all 2s; }
+.btn_box li span:hover {background-color:#666; color: #eee ;cursor: pointer;}

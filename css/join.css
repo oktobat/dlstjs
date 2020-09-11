@@ -1,0 +1,58 @@
+@charset "utf-8";
+@import "reset.css";
+@import "common.css";
+
+#join_page { padding: 80px 260px 100px;border-top: 1px solid #eee; }
+.check_outer {margin-bottom: 156px;  }
+.check_outer h2 { margin:20px 0 30px ;padding-left: 25px; font-size:30px ; color:#004A8D; position: relative; font-weight: 400;} 
+.check_outer h2:before {content: ''; position: absolute; top:50%; left:0;transform: translateY(-50%) ;border: 3px solid #004A8D; width: 4px; height: 4px;}
+.check_outer p { font-size: 14px; color: #666; line-height: 180%;
+ padding-bottom: 20px;}
+.check_form { width: 96%; padding: 20px; background-color: #f1f1f1;
+    border: 1px #ddd solid; border-radius: 5px; margin-bottom: 10px;}
+.check_form li { display: inline-block; }    
+.check_form li label {font-size: 14px;color:#666; padding: 0 5px;}
+#name_lbl {width: 200px ; height:38.5px ; padding: 5px 8px;border: 1px #ddd solid}
+#email_lbl {width:223px ; height:38.5px ;padding: 5px 8px;border: 1px #ddd solid }
+.check_form ul li span { display:inline-block; width: 80px ; height:38px ; color: rgb(229,229,229) ; background: rgb(102,102,102); vertical-align: middle;}
+.check_form ul li a {display: block; text-align: center;padding:8.7px 0;}
+
+::placeholder {font-size: 14px; color: #666; line-height: 180%}
+.join_box h2 { margin:20px 0 30px ;padding-left: 25px; font-size:30px ; color:#004A8D; position: relative; font-weight: 400;} 
+.join_box h2:before {content: ''; position: absolute; top:50%; left:0;transform: translateY(-50%) ;border: 3px solid #004A8D; width: 4px; height: 4px;}
+.join_box .join_form {width: 96%; padding: 20px; background-color: #f1f1f1;
+    border: 1px #ddd solid; border-radius: 5px; margin-bottom: 10px; font-size: 14px; color: #666; line-height: 180%;}
+.join_form .info_content {  padding-left:20px; padding-bottom:10px; }
+.join_form .import_item {position: relative;}
+.join_form .import_item::before {content:"※"; position:absolute; left:5px; top:0; width:15px; font-weight:bold; font-size:17px; color:#f00;}    
+.join_form .info_list { padding:1px 0; border-bottom:1px solid #ccc;}
+.join_form .info_list li { padding:13px 0}
+.join_form .tit_lbl { display:inline-block; width:160px; line-height:45px; padding-left:20px; }
+.join_form .info_content { display:inline-block; width:79%; vertical-align:top }
+.join_form .info_content input[type=text],
+.join_form .info_content input[type=password],
+.join_form .info_content input[type=date],
+.join_form .info_content select { height:38.5px; border: 1px solid #ddd; padding:5px 8px; vertical-align:top;  }
+.join_form .w320 { width:320px }
+.join_form .w160 { width:160px }
+.join_form .info_content span { line-height:45px; }
+.join_form .w70p { width:70% }
+.join_form .mb3 { margin:0px 0 5px}
+.join_form .info_content button { height:38.5px; width:80px; border:1px solid #ccc; border-radius:5px }
+.join_form .info_content button:hover { cursor:pointer; background:#ddd }
+.join_form .gender_area label { line-height:38.5px; padding-right:15px  }
+.join_form .marry_area label { line-height:38.5px; padding-right:15px  }
+/* 라이오박스 체크박스 웹폰트 아이콘으로 이쁘게 꾸미기 */
+.join_form .gender_area label::before {content:'\f14a';font-family:"Font Awesome 5 Free";font-weight: 400;color: #ccc; padding-right:10px ; display: inline-block; transform: scale(1.5); padding-left: 20px; }
+.join_form .gender_area input[type=radio]:checked + label::before {font-weight: 900; color: #004A8D;}
+
+.join_form .marry_area label::before {content:'\f14a';font-family:"Font Awesome 5 Free";font-weight: 400;color: #ccc; padding-right:10px ;display: inline-block; transform: scale(1.5); padding-left: 20px;}
+.join_form .marry_area input[type=checkbox]:checked + label::before { font-weight: 900; color: #004A8D;}
+
+.join_form .gender_area input[type=radio] {display: none;}
+.join_form .marry_area input[type=checkbox] {display: none;}
+
+.join_form .info_content textarea { height: 245px; width:70%;border:1px solid #eee;font-family: 'Roboto', 'Noto Sans KR', 'sans-serif'; font-size: 15px; letter-spacing: -2px;
+    color: #444; padding: 10px; line-height: 1.5; resize:none; }
+.join_form .btn { margin-top:20px; text-align:center }    
+.join_form .btn input { width:80px; height:40px; background:rgb(102,102,102); color:rgb(229,229,229);border:none; border-radius:5px; font-size:18px; margin:0 20px }
